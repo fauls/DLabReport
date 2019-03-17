@@ -1,0 +1,2 @@
+        \VerbatimFootnotes
+        We can put verbatim\footnote{\verb+_Yes!_+} text in footnotes.

@@ -2,13 +2,34 @@
 \usepackage[utf8]{inputenc}
 \usepackage[english,russian]{babel}
 \usepackage{indentfirst}
-\usepackage{report}
 \usepackage{misccorr}
 \usepackage{graphicx}
 \usepackage{amsmath}
 \usepackage{geometry} % Меняем поля страницы
-
 \graphicspath{{images/}}
+\usepackage{color}
+\usepackage{listingsutf8}
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}.}
+
+\lstset{columns=fixed,language=Java,%
+	basicstyle=\small\sffamily,
+	numbers=left,
+	numberstyle=\tiny,
+	stepnumber=1,
+	backgroundcolor=\color{white},  
+	breaklines=true,
+	showspaces=false, 
+	showtabs=false,  
+	frame=single
+	tabsize=2,
+	captionpos=t,
+	breaklines=true,
+	breakatwhitespace=false,
+	inputencoding=utf8/cp1251
+}
+
+
+
 \geometry{left=2cm}% левое поле
 \geometry{right=1.5cm}% правое поле
 \geometry{top=1cm}% верхнее поле
