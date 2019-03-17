@@ -1,0 +1,32 @@
+\documentclass[12pt,a4paper]{scrartcl}
+\usepackage[utf8]{inputenc}
+\usepackage[english,russian]{babel}
+\usepackage{indentfirst}
+\usepackage{report}
+\usepackage{misccorr}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{geometry} % Меняем поля страницы
+
+\graphicspath{{images/}}
+\geometry{left=2cm}% левое поле
+\geometry{right=1.5cm}% правое поле
+\geometry{top=1cm}% верхнее поле
+\geometry{bottom=2cm}% нижнее поле
+
+\newcommand{\imgh}[3]
+{
+	\begin{figure}[h]
+		\center{\includegraphics[width=#1]{#2}}
+		\caption{#3}
+		\label{ris:#2}
+	\end{figure}
+}
+
+\begin{document}
+	\input{titul}% это титульный лист
+	\tableofcontents
+	\newpage
+	\input{sh1}
+	
+\end{document}
