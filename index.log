@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.5)  17 MAR 2019 22:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.1.5)  17 MAR 2019 23:20
 entering extended mode
 **./index.tex
 (index.tex
@@ -564,20 +564,20 @@ File: t2acmr.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
 ))
 \openout1 = `index.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
-LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 47.
-LaTeX Font Info:    ... okay on input line 47.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T2A/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
 
 ("F:\Program Files\MiKTeX 2.9\tex/context/base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -655,16 +655,25 @@ G,.JBIG2,.JB2,.eps]
 (titul.tex [1
 
 {C:/Users/stalk/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}])
-LaTeX Font Info:    Try loading font information for T2A+cmss on input line 49.
+LaTeX Font Info:    Try loading font information for T2A+cmss on input line 50.
 
  ("F:\Program Files\MiKTeX 2.9\tex/latex/cyrillic\t2acmss.fd"
 File: t2acmss.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
-) (index.toc)
+) (index.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 6.
+
+("F:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 6.
+
+("F:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
 \tf@toc=\write3
 \openout3 = `index.toc'.
 
-
-[2] (sh1.tex
+ [2] (sh1.tex
 Overfull \hbox (21.22429pt too wide) in paragraph at lines 3--8
 \T2A/cmr/m/n/12 Для ра-бо-ты с ви-зу-аль-ны-ми фор-ма-ми бы-ло уста-нов-ле-но о
 фи-ци-аль-ное рас-ши-ре-ние WindowBuilder,
@@ -693,6 +702,12 @@ Overfull \hbox (3.92984pt too wide) in paragraph at lines 22--28
  []
 
 [3 <./screenshot001.png (PNG copy)>]
+LaTeX Font Info:    Try loading font information for T2A+cmtt on input line 29.
+
+
+("F:\Program Files\MiKTeX 2.9\tex/latex/cyrillic\t2acmtt.fd"
+File: t2acmtt.fd 2001/08/11 v1.0a Computer Modern Cyrillic font definitions
+)
 ("F:\Program Files\MiKTeX 2.9\tex/latex/cyrillic\cp1251.def"
 File: cp1251.def 2014/10/28 v1.0d Input encoding file
 )
@@ -702,6 +717,8 @@ File: se-utf8.def 2016/05/16 v1.11 stringenc: UTF-8
 ("F:\Program Files\MiKTeX 2.9\tex/generic/oberdiek\se-cp1251.def"
 File: se-cp1251.def 2016/05/16 v1.11 stringenc: cp1251
 )
+LaTeX Font Info:    Font shape `T2A/cmtt/bx/n' in size <8> not available
+(Font)              Font shape `T2A/cmtt/m/n' tried instead on input line 2.
 <screenshot003.png, id=19, 776.14969pt x 559.33969pt>
 File: screenshot003.png Graphic file (type png)
 <use screenshot003.png>
@@ -716,37 +733,59 @@ File: screenshot002.png Graphic file (type png)
 <use screenshot002.png>
 Package pdftex.def Info: screenshot002.png  used on input line 67.
 (pdftex.def)             Requested size: 426.79134pt x 201.13469pt.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 64--52
+<screenshot004.png, id=22, 593.96906pt x 633.86812pt>
+File: screenshot004.png Graphic file (type png)
+<use screenshot004.png>
+Package pdftex.def Info: screenshot004.png  used on input line 68.
+(pdftex.def)             Requested size: 426.79134pt x 455.47552pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 64--69
 
  []
 
-[4] [5 <./screenshot003.png> <./screenshot002.png>] (index.aux) ) 
+[4]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[5 <./screenshot003.png> <./screenshot002.png>]
+("F:\Program Files\MiKTeX 2.9\tex/latex/cyrillic\cp1251.def"
+File: cp1251.def 2014/10/28 v1.0d Input encoding file
+) [6 <./screenshot004.png>] [7] ("F:\Program Files\MiKTeX 2.9\tex/latex/cyrilli
+c\cp1251.def"
+File: cp1251.def 2014/10/28 v1.0d Input encoding file
+)
+[8] ("F:\Program Files\MiKTeX 2.9\tex/latex/cyrillic\cp1251.def"
+File: cp1251.def 2014/10/28 v1.0d Input encoding file
+) [9]
+("F:\Program Files\MiKTeX 2.9\tex/latex/cyrillic\cp1251.def"
+File: cp1251.def 2014/10/28 v1.0d Input encoding file
+) [10] [11]
+[12] [13] [14]) [15] (index.aux) ) 
 Here is how much of TeX's memory you used:
- 8453 strings out of 492946
- 128079 string characters out of 3135528
- 515463 words of memory out of 3000000
- 12201 multiletter control sequences out of 15000+200000
- 14826 words of font info for 29 fonts, out of 3000000 for 9000
+ 8701 strings out of 492946
+ 132286 string characters out of 3135528
+ 786289 words of memory out of 3000000
+ 12414 multiletter control sequences out of 15000+200000
+ 17821 words of font info for 45 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,7n,51p,9113b,1927s stack positions out of 5000i,500n,10000p,200000b,50000s
- <C:\Users\sta
-lk\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\U
-sers\stalk\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lasx1095.p
-k> <C:\Users\stalk\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\la
-ss1095.pk> <C:\Users\stalk\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/d
-pi600\lasi1095.pk> <C:\Users\stalk\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/
-lh-t2a/dpi600\larm0600.pk> <C:\Users\stalk\AppData\Local\MiKTeX\2.9\fonts/pk/lj
-four/lh/lh-t2a/dpi600\lasx1200.pk> <C:\Users\stalk\AppData\Local\MiKTeX\2.9\fon
-ts/pk/ljfour/lh/lh-t2a/dpi600\lasx1728.pk> <C:\Users\stalk\AppData\Local\MiKTeX
-\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1200.pk> <C:\Users\stalk\AppData\Loca
-l\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm2074.pk> <C:\Users\stalk\AppD
-ata\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lacc1440.pk> <C:\Users\st
-alk\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><F:/P
-rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on index.pdf (5 pages, 228157 bytes).
+ 48i,8n,51p,9113b,2153s stack positions out of 5000i,500n,10000p,200000b,50000s
+ <C:\Users\stalk\AppData\Local\MiKTeX\2.9\fon
+ts/pk/ljfour/lh/lh-t2a/dpi600\lasx1440.pk> <C:\Users\stalk\AppData\Local\MiKTeX
+\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\labx1200.pk> <C:\Users\stalk\AppData\Loca
+l\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\latt0800.pk> <C:\Users\stalk\AppD
+ata\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lait0800.pk> <C:\Users\st
+alk\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\larm0600.pk> <C:\
+Users\stalk\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\lasx1200.
+pk> <C:\Users\stalk\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/dpi600\l
+asx1728.pk> <C:\Users\stalk\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh/lh-t2a/
+dpi600\larm1200.pk> <C:\Users\stalk\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/lh
+/lh-t2a/dpi600\larm2074.pk> <C:\Users\stalk\AppData\Local\MiKTeX\2.9\fonts/pk/l
+jfour/lh/lh-t2a/dpi600\lacc1440.pk> <C:\Users\stalk\AppData\Local\MiKTeX\2.9\fo
+nts/pk/ljfour/lh/lh-t2a/dpi600\larm1440.pk><F:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb>
+Output written on index.pdf (15 pages, 390227 bytes).
 PDF statistics:
- 404 PDF objects out of 1000 (max. 8388607)
+ 621 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

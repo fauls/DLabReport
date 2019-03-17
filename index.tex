@@ -10,9 +10,8 @@
 \usepackage{color}
 \usepackage{listingsutf8}
 \renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}.}
-
-\lstset{columns=fixed,language=Java,%
-	basicstyle=\small\sffamily,
+\lstset{columns=fullflexible,language=Java,%
+	basicstyle=\scriptsize\ttfamily,
 	numbers=left,
 	numberstyle=\tiny,
 	stepnumber=1,
@@ -21,10 +20,12 @@
 	showspaces=false, 
 	showtabs=false,  
 	frame=single
-	tabsize=2,
+	tabsize=1,
 	captionpos=t,
 	breaklines=true,
 	breakatwhitespace=false,
+	prebreak= \space,
+	postbreak   = \space,
 	inputencoding=utf8/cp1251
 }
 
