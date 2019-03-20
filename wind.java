@@ -108,24 +108,7 @@ public class wind extends JFrame {
 					} catch (NumberFormatException e) {
 						JOptionPane.showMessageDialog(null, "Неверно указана сумма вклада");
 					}
-				
-				try{//день
-					  int day = Integer.parseInt(t_day.getText());
-					  
-					  if (day<1 || day>31) {throw new NumberFormatException();}else//генерируем исключение если выходим за пределы
-					  {deposit.day = day;}
-					} catch (NumberFormatException e) {
-						JOptionPane.showMessageDialog(null, "Введите день числом от 1 до 31");
-					}
-				try{//месяц
-					  int month = Integer.parseInt(t_month.getText());
-					  
-					  if (month<1 || month>12) {throw new NumberFormatException();}else 
-					  {deposit.month = month;}
-					  
-					} catch (NumberFormatException e) {
-						JOptionPane.showMessageDialog(null, "Введите месяц числом от 1 до 12");
-					}
+
 				try{//год
 					  int year = Integer.parseInt(t_year.getText());
 					  
@@ -135,6 +118,25 @@ public class wind extends JFrame {
 					} catch (NumberFormatException e) {
 						JOptionPane.showMessageDialog(null, "Введите год числом больше 0");
 					}
+				
+				try{//месяц
+					  int month = Integer.parseInt(t_month.getText());
+					  
+					  if (month<1 || month>12) {throw new NumberFormatException();}else 
+					  {deposit.month = month;}
+					  
+					} catch (NumberFormatException e) {
+						JOptionPane.showMessageDialog(null, "Введите месяц числом от 1 до 12");
+					}
+				
+				try{//день
+					  int day = Integer.parseInt(t_day.getText());
+					  deposit.setDate(day);//сеттер
+					} catch (NumberFormatException e) {
+						JOptionPane.showMessageDialog(null, "Введите корректный день");
+						deposit.day=1;//по-умолчанию
+					}
+
 				
 				try{//срок вклада
 					  int term = Integer.parseInt(t_time_vklad.getText());

@@ -130,6 +130,41 @@ class Test {
 		assertEquals((int)depo.deposit, 407099);
 	}
 	
+	@org.junit.jupiter.api.Test
+	
+	//с другой суммой и процентной ставкой и сроком
+		void base5_test1() {
+			Deposit depo = new Deposit();
+	    	depo.deposit = 300000;
+	    	depo.day = 20;
+	    	depo.month = 3;
+	    	depo.year = 2019;
+	    	depo.interest = 8;
+	    	depo.term = 365;
+	    	depo.proc = 0;
+	    	depo.capitaliz = false;
+			depo.calculate();
+			assertEquals((int)depo.finalproc, 24054);
+			assertEquals((int)depo.deposit, 324054);
+		}
+	
+	@org.junit.jupiter.api.Test
+	
+	//тест без капитализации, ожидается вывод проценты - 8 018, всего - 108 018
+	void base6_test1() {
+		Deposit depo = new Deposit();
+    	depo.deposit = 100000;
+    	depo.day = 20;
+    	depo.month = 3;
+    	depo.year = 2019;
+    	depo.interest = 8;
+    	depo.term = 365;
+    	depo.proc = 0;
+    	depo.capitaliz = false;
+		depo.calculate();
+		assertEquals((int)depo.finalproc, 8018);
+		assertEquals((int)depo.deposit, 108018);
+	}
 
 }
 

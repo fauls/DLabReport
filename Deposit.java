@@ -4,6 +4,8 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 
+import javax.swing.JOptionPane;
+
 //
 //основной класс для работы с депозитом
 //
@@ -22,7 +24,15 @@ public class Deposit {
 	private LocalDate _stopdate; //конечная
 	private int _periods; //кол-во месяцев (проценты добавляются помесячно)
 	double finalproc=0; //итоговые проценты
-
+	
+	public void setDate(int date)//проверка дня
+	{
+		LocalDate startdate = LocalDate.of(year, month, 2);
+		if (date<1 || date>startdate.lengthOfMonth())
+		{throw new NumberFormatException();}else
+		{day = date;}
+	}
+	
 	public void calculate()
 	{
 		dayInPeriod();//подсчёт срока
